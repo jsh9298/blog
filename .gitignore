@@ -1,0 +1,12 @@
+# macOS 관련
+.DS_Store
+
+# node_modules 디렉터리
+node_modules/*
+
+# 로그 파일
+*.log
+
+# 환경 변수 파일
+.env
+
