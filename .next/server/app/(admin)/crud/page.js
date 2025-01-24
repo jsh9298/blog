@@ -67,17 +67,6 @@ module.exports = require("next/dist/server/app-render/work-unit-async-storage.ex
 
 /***/ }),
 
-/***/ "os":
-/*!*********************!*\
-  !*** external "os" ***!
-  \*********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("os");
-
-/***/ }),
-
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -89,58 +78,14 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ "tty":
-/*!**********************!*\
-  !*** external "tty" ***!
-  \**********************/
+/***/ "node:fs":
+/*!**************************!*\
+  !*** external "node:fs" ***!
+  \**************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("tty");
-
-/***/ }),
-
-/***/ "util":
-/*!***********************!*\
-  !*** external "util" ***!
-  \***********************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("util");
-
-/***/ }),
-
-/***/ "node:path":
-/*!****************************!*\
-  !*** external "node:path" ***!
-  \****************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("node:path");
-
-/***/ }),
-
-/***/ "node:process":
-/*!*******************************!*\
-  !*** external "node:process" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("node:process");
-
-/***/ }),
-
-/***/ "node:url":
-/*!***************************!*\
-  !*** external "node:url" ***!
-  \***************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("node:url");
+module.exports = require("node:fs");
 
 /***/ }),
 
@@ -242,7 +187,7 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ typingPage)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _uiw_react_markdown_editor__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @uiw/react-markdown-editor */ \"(ssr)/./node_modules/@uiw/react-markdown-editor/esm/index.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\nfunction typingPage(props) {\n    const markdownVal = `# title\\n\\nHello World!\\n\\n`;\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        style: {\n            height: \"350px\",\n            overflow: \"scroll\"\n        },\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_uiw_react_markdown_editor__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                height: '350px',\n                autoFocus: false,\n                value: props.content,\n                onChange: props.contentChange,\n                style: {\n                    overflow: \"scroll\"\n                }\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n                lineNumber: 8,\n                columnNumber: 9\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_uiw_react_markdown_editor__WEBPACK_IMPORTED_MODULE_1__[\"default\"].Markdown, {\n                source: markdownVal\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n                lineNumber: 15,\n                columnNumber: 10\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvKGFkbWluKS9jcnVkL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQ2lEO0FBQ2xDLFNBQVNDLFdBQVdDLEtBQUs7SUFFeEMsTUFBTUMsY0FBYyxDQUFDLDJCQUEyQixDQUFDO0lBQzdDLHFCQUNBLDhEQUFDQztRQUFJQyxPQUFPO1lBQUNDLFFBQU87WUFBUUMsVUFBUztRQUFROzswQkFDekMsOERBQUNQLGtFQUFRQTtnQkFDUE0sUUFBUTtnQkFDUkUsV0FBVztnQkFDWEMsT0FBT1AsTUFBTVEsT0FBTztnQkFDcEJDLFVBQVVULE1BQU1VLGFBQWE7Z0JBQzdCUCxPQUFPO29CQUFDRSxVQUFTO2dCQUFROzs7Ozs7MEJBRTFCLDhEQUFDUCxrRUFBUUEsQ0FBQ2EsUUFBUTtnQkFBQ0MsUUFBUVg7Ozs7Ozs7Ozs7OztBQUdwQyIsInNvdXJjZXMiOlsiQzpcXFVzZXJzXFx1c2VyXFxEZXNrdG9wXFxKZWFuQWhTZW9wXFxtZWhcXGJsb2dcXGFwcFxcKGFkbWluKVxcY3J1ZFxccGFnZS50c3giXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCI7XHJcbmltcG9ydCBNREVkaXRvciBmcm9tIFwiQHVpdy9yZWFjdC1tYXJrZG93bi1lZGl0b3JcIlxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiB0eXBpbmdQYWdlKHByb3BzKXtcclxuICBcclxuY29uc3QgbWFya2Rvd25WYWwgPSBgIyB0aXRsZVxcblxcbkhlbGxvIFdvcmxkIVxcblxcbmA7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgPGRpdiBzdHlsZT17e2hlaWdodDpcIjM1MHB4XCIsb3ZlcmZsb3c6XCJzY3JvbGxcIn19PlxyXG4gICAgICAgIDxNREVkaXRvclxyXG4gICAgICAgICAgaGVpZ2h0PXsnMzUwcHgnfVxyXG4gICAgICAgICAgYXV0b0ZvY3VzPXtmYWxzZX1cclxuICAgICAgICAgIHZhbHVlPXtwcm9wcy5jb250ZW50fVxyXG4gICAgICAgICAgb25DaGFuZ2U9e3Byb3BzLmNvbnRlbnRDaGFuZ2V9XHJcbiAgICAgICAgICBzdHlsZT17e292ZXJmbG93Olwic2Nyb2xsXCJ9fVxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgIDxNREVkaXRvci5NYXJrZG93biBzb3VyY2U9e21hcmtkb3duVmFsfSAvPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICApXHJcbn0iXSwibmFtZXMiOlsiTURFZGl0b3IiLCJ0eXBpbmdQYWdlIiwicHJvcHMiLCJtYXJrZG93blZhbCIsImRpdiIsInN0eWxlIiwiaGVpZ2h0Iiwib3ZlcmZsb3ciLCJhdXRvRm9jdXMiLCJ2YWx1ZSIsImNvbnRlbnQiLCJvbkNoYW5nZSIsImNvbnRlbnRDaGFuZ2UiLCJNYXJrZG93biIsInNvdXJjZSJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./app/(admin)/crud/page.tsx\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ typingPage)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _uiw_react_md_editor_markdown_editor_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @uiw/react-md-editor/markdown-editor.css */ \"(ssr)/./node_modules/@uiw/react-md-editor/markdown-editor.css\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ \"(ssr)/./node_modules/next/dist/api/app-dynamic.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var node_fs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! node:fs */ \"node:fs\");\n/* harmony import */ var node_fs__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(node_fs__WEBPACK_IMPORTED_MODULE_4__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n// import \"@uiw/react-markdown-preview/markdown.css\";\n\n\n\nconst MDEditor = (0,next_dynamic__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(async ()=>{\n     true && /*require.resolve*/(null /* weak dependency, without id */);\n}, {\n    loadableGenerated: {\n        modules: [\n            \"app\\\\(admin)\\\\crud\\\\page.tsx -> \" + \"@uiw/react-md-editor\"\n        ]\n    },\n    ssr: false\n});\nconst saveMd = (value)=>{\n    node_fs__WEBPACK_IMPORTED_MODULE_4___default().writeFile(\"./writeFile.md\", value, (err)=>{\n        if (err) throw err;\n        console.log('The file has been saved!');\n    });\n};\nfunction typingPage() {\n    const [value, setValue] = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(\"**Hello world!!!**\");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(MDEditor, {\n                    value: value,\n                    onChange: setValue\n                }, void 0, false, {\n                    fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n                    lineNumber: 24,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                onClick: saveMd(value),\n                children: \" save \"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\user\\\\Desktop\\\\JeanAhSeop\\\\meh\\\\blog\\\\app\\\\(admin)\\\\crud\\\\page.tsx\",\n                lineNumber: 26,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvKGFkbWluKS9jcnVkL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFDa0Q7QUFDbEQscURBQXFEO0FBQ2xCO0FBRUY7QUFDUjtBQUV6QixNQUFNRyxXQUFXSCx3REFBT0E7Ozs7Ozs7O0lBRXBCSSxLQUFLOztBQUVULE1BQU1DLFNBQVMsQ0FBQ0M7SUFDZEosd0RBQVksQ0FBQyxrQkFBa0JJLE9BQU8sQ0FBQ0U7UUFDbkMsSUFBSUEsS0FBSyxNQUFNQTtRQUNmQyxRQUFRQyxHQUFHLENBQUM7SUFDaEI7QUFDRjtBQUNlLFNBQVNDO0lBQ3RCLE1BQU0sQ0FBQ0wsT0FBT00sU0FBUyxHQUFHWCwrQ0FBUUEsQ0FBQztJQUNuQyxxQkFDRTs7MEJBQ0UsOERBQUNZOzBCQUNDLDRFQUFDVjtvQkFBU0csT0FBT0E7b0JBQU9RLFVBQVVGOzs7Ozs7Ozs7OzswQkFFbEMsOERBQUNHO2dCQUFPQyxTQUFTWCxPQUFPQzswQkFBUTs7Ozs7Ozs7QUFHeEMiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcdXNlclxcRGVza3RvcFxcSmVhbkFoU2VvcFxcbWVoXFxibG9nXFxhcHBcXChhZG1pbilcXGNydWRcXHBhZ2UudHN4Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiXHJcbmltcG9ydCBcIkB1aXcvcmVhY3QtbWQtZWRpdG9yL21hcmtkb3duLWVkaXRvci5jc3NcIjtcclxuLy8gaW1wb3J0IFwiQHVpdy9yZWFjdC1tYXJrZG93bi1wcmV2aWV3L21hcmtkb3duLmNzc1wiO1xyXG5pbXBvcnQgZHluYW1pYyBmcm9tIFwibmV4dC9keW5hbWljXCI7XHJcbmltcG9ydCAqIGFzIGNvbW1hbmRzIGZyb20gXCJAdWl3L3JlYWN0LW1kLWVkaXRvclwiO1xyXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xyXG5pbXBvcnQgZnMgZnJvbSBcIm5vZGU6ZnNcIjtcclxuXHJcbmNvbnN0IE1ERWRpdG9yID0gZHluYW1pYyhcclxuICAoKSA9PiBpbXBvcnQoXCJAdWl3L3JlYWN0LW1kLWVkaXRvclwiKSxcclxuICB7IHNzcjogZmFsc2UgfVxyXG4pO1xyXG5jb25zdCBzYXZlTWQgPSAodmFsdWUpIDogYW55ID0+e1xyXG4gIGZzLndyaXRlRmlsZShcIi4vd3JpdGVGaWxlLm1kXCIsIHZhbHVlLCAoZXJyKSA9PiB7XHJcbiAgICAgIGlmIChlcnIpIHRocm93IGVycjtcclxuICAgICAgY29uc29sZS5sb2coJ1RoZSBmaWxlIGhhcyBiZWVuIHNhdmVkIScpO1xyXG4gIH0pO1xyXG59XHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIHR5cGluZ1BhZ2UoKXtcclxuICBjb25zdCBbdmFsdWUsIHNldFZhbHVlXSA9IHVzZVN0YXRlKFwiKipIZWxsbyB3b3JsZCEhISoqXCIpO1xyXG4gIHJldHVybiAoXHJcbiAgICA8PlxyXG4gICAgICA8ZGl2PlxyXG4gICAgICAgIDxNREVkaXRvciB2YWx1ZT17dmFsdWV9IG9uQ2hhbmdlPXtzZXRWYWx1ZX0gLz5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgICAgPGJ1dHRvbiBvbkNsaWNrPXtzYXZlTWQodmFsdWUpfT4gc2F2ZSA8L2J1dHRvbj5cclxuICAgICAgPC8+XHJcbiAgKTtcclxufSJdLCJuYW1lcyI6WyJkeW5hbWljIiwidXNlU3RhdGUiLCJmcyIsIk1ERWRpdG9yIiwic3NyIiwic2F2ZU1kIiwidmFsdWUiLCJ3cml0ZUZpbGUiLCJlcnIiLCJjb25zb2xlIiwibG9nIiwidHlwaW5nUGFnZSIsInNldFZhbHVlIiwiZGl2Iiwib25DaGFuZ2UiLCJidXR0b24iLCJvbkNsaWNrIl0sImlnbm9yZUxpc3QiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./app/(admin)/crud/page.tsx\n");
 
 /***/ }),
 
@@ -405,7 +350,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/@codemirror","vendor-chunks/@lezer","vendor-chunks/next","vendor-chunks/refractor","vendor-chunks/@uiw","vendor-chunks/mdast-util-to-markdown","vendor-chunks/mdast-util-to-hast","vendor-chunks/micromark-core-commonmark","vendor-chunks/property-information","vendor-chunks/parse5","vendor-chunks/hast-util-select","vendor-chunks/micromark","vendor-chunks/css-selector-parser","vendor-chunks/hast-util-from-parse5","vendor-chunks/entities","vendor-chunks/micromark-util-symbol","vendor-chunks/micromark-extension-gfm-table","vendor-chunks/@ungap","vendor-chunks/@swc","vendor-chunks/debug","vendor-chunks/nth-check","vendor-chunks/vfile","vendor-chunks/unist-util-visit-parents","vendor-chunks/unified","vendor-chunks/rehype-attr","vendor-chunks/micromark-util-subtokenize","vendor-chunks/micromark-extension-gfm-task-list-item","vendor-chunks/micromark-extension-gfm-strikethrough","vendor-chunks/micromark-extension-gfm-footnote","vendor-chunks/micromark-extension-gfm-autolink-literal","vendor-chunks/hastscript","vendor-chunks/github-slugger","vendor-chunks/@babel","vendor-chunks/style-to-object","vendor-chunks/zwitch","vendor-chunks/web-namespaces","vendor-chunks/w3c-keyname","vendor-chunks/vfile-message","vendor-chunks/vfile-location","vendor-chunks/unist-util-visit","vendor-chunks/unist-util-stringify-position","vendor-chunks/unist-util-position","vendor-chunks/unist-util-is","vendor-chunks/unist-util-filter","vendor-chunks/trough","vendor-chunks/trim-lines","vendor-chunks/style-mod","vendor-chunks/space-separated-tokens","vendor-chunks/remark-rehype","vendor-chunks/remark-parse","vendor-chunks/remark-github-blockquote-alert","vendor-chunks/remark-gfm","vendor-chunks/rehype-slug","vendor-chunks/rehype-rewrite","vendor-chunks/rehype-raw","vendor-chunks/rehype-prism-plus","vendor-chunks/rehype-ignore","vendor-chunks/rehype-autolink-headings","vendor-chunks/react-markdown","vendor-chunks/parse-entities","vendor-chunks/micromark-util-sanitize-uri","vendor-chunks/micromark-util-resolve-all","vendor-chunks/micromark-util-normalize-identifier","vendor-chunks/micromark-util-html-tag-name","vendor-chunks/micromark-util-encode","vendor-chunks/micromark-util-decode-string","vendor-chunks/micromark-util-decode-numeric-character-reference","vendor-chunks/micromark-util-combine-extensions","vendor-chunks/micromark-util-classify-character","vendor-chunks/micromark-util-chunked","vendor-chunks/micromark-util-character","vendor-chunks/micromark-factory-whitespace","vendor-chunks/micromark-factory-title","vendor-chunks/micromark-factory-space","vendor-chunks/micromark-factory-label","vendor-chunks/micromark-factory-destination","vendor-chunks/micromark-extension-gfm","vendor-chunks/micromark-extension-gfm-tagfilter","vendor-chunks/mdast-util-to-string","vendor-chunks/mdast-util-phrasing","vendor-chunks/mdast-util-gfm","vendor-chunks/mdast-util-gfm-task-list-item","vendor-chunks/mdast-util-gfm-table","vendor-chunks/mdast-util-gfm-strikethrough","vendor-chunks/mdast-util-gfm-footnote","vendor-chunks/mdast-util-gfm-autolink-literal","vendor-chunks/mdast-util-from-markdown","vendor-chunks/mdast-util-find-and-replace","vendor-chunks/markdown-table","vendor-chunks/longest-streak","vendor-chunks/is-plain-obj","vendor-chunks/is-hexadecimal","vendor-chunks/is-decimal","vendor-chunks/is-alphanumerical","vendor-chunks/is-alphabetical","vendor-chunks/html-void-elements","vendor-chunks/html-url-attributes","vendor-chunks/hast-util-whitespace","vendor-chunks/hast-util-to-string","vendor-chunks/hast-util-to-parse5","vendor-chunks/hast-util-to-jsx-runtime","vendor-chunks/hast-util-raw","vendor-chunks/hast-util-parse-selector","vendor-chunks/hast-util-is-element","vendor-chunks/hast-util-heading-rank","vendor-chunks/hast-util-has-property","vendor-chunks/estree-util-is-identifier-name","vendor-chunks/escape-string-regexp","vendor-chunks/direction","vendor-chunks/devlop","vendor-chunks/dequal","vendor-chunks/decode-named-character-reference","vendor-chunks/crelt","vendor-chunks/comma-separated-tokens","vendor-chunks/character-reference-invalid","vendor-chunks/character-entities","vendor-chunks/character-entities-legacy","vendor-chunks/ccount","vendor-chunks/bcp-47-match","vendor-chunks/bail","vendor-chunks/@marijn","vendor-chunks/supports-color","vendor-chunks/parse-numeric-range","vendor-chunks/ms","vendor-chunks/inline-style-parser","vendor-chunks/has-flag","vendor-chunks/extend","vendor-chunks/boolbase"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(admin)%2Fcrud%2Fpage&page=%2F(admin)%2Fcrud%2Fpage&appPaths=%2F(admin)%2Fcrud%2Fpage&pagePath=private-next-app-dir%2F(admin)%2Fcrud%2Fpage.tsx&appDir=C%3A%5CUsers%5Cuser%5CDesktop%5CJeanAhSeop%5Cmeh%5Cblog%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Cuser%5CDesktop%5CJeanAhSeop%5Cmeh%5Cblog&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/@uiw"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2F(admin)%2Fcrud%2Fpage&page=%2F(admin)%2Fcrud%2Fpage&appPaths=%2F(admin)%2Fcrud%2Fpage&pagePath=private-next-app-dir%2F(admin)%2Fcrud%2Fpage.tsx&appDir=C%3A%5CUsers%5Cuser%5CDesktop%5CJeanAhSeop%5Cmeh%5Cblog%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=C%3A%5CUsers%5Cuser%5CDesktop%5CJeanAhSeop%5Cmeh%5Cblog&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();
